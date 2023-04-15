@@ -1,0 +1,12 @@
+# exclude aux files for latex
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+.latexmkrc
+.DS_Store
