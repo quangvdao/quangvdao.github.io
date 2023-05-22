@@ -7,6 +7,12 @@
 \usepackage[scale=0.75]{geometry}
 \usepackage[english]{babel}
 
+\usepackage{datetime}
+
+\newdateformat{monthyearformat}{\monthname[\THEMONTH] \THEYEAR}
+
+\newcommand{\monthyear}{\monthyearformat\today}
+
 % Personal data
 \firstname{Quang}
 % \middlename{Vu}
@@ -15,7 +21,7 @@
 \homepage{https://quangvdao.github.io/}
 \address{}{Pittsburgh, PA}{}
 % \social[googlescholar]{pN642RkAAAAJ}
-\extrainfo{Last updated: April 2023}
+\extrainfo{Last updated: \monthyear}
 
 \begin{document}
 \makecvtitle
@@ -45,8 +51,10 @@
 
 % \cvitem{4.}{\textbf{Quang Dao}, Yuval Ishai, Aayush Jain, Huijia Lin. Multi-party Homomorphic Secret Sharing and Sub-linear MPC from Sparse LPN. \textit{CRYPTO 2023}.}
 
-\cvitem{3.}{\textbf{Quang Dao}, Jim Miller, Opal Wright, Paul Grubbs. Weak Fiat-Shamir Attacks on Modern Proof Systems. \textit{IEEE S\&P 2023}.}
+\cvitem{3.}{\textbf{Quang Dao}, Jim Miller, Opal Wright, Paul Grubbs. Weak Fiat-Shamir Attacks on Modern Proof Systems. \textit{IEEE S\&P 2023}. \textbf{Distinguished Paper Award.}}
+
 \cvitem{2.}{\textbf{Quang Dao}, Paul Grubbs. Spartan and Bulletproofs are simulation-extractable (for free!). \textit{EUROCRYPT 2023}.}
+
 \cvitem{1.}{\textbf{Quang Dao}, Julian Wellman, Calvin Yost-Wolff, Sylvester W. Zhang. Rowmotion Orbits of Trapezoid Posets. \textit{The Electronic Journal of Combinatorics}, P2-29, 2022.}
 
 
