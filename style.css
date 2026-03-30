@@ -198,6 +198,22 @@ section h2 {
   margin-bottom: var(--spacing-md);
 }
 
+/* ---------- Talk List ---------- */
+
+.talk-list {
+  list-style: none;
+}
+
+.talk-list li {
+  margin-bottom: var(--spacing-md);
+}
+
+.talk-venues {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
 /* ---------- Misc ---------- */
 
 .misc-list {
