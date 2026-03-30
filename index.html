@@ -1,208 +1,154 @@
 <!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
--->
-
 <html lang="en">
 <head>
-  <title>Quang Dao</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <title>Quang Dao</title>
+  <meta name="description" content="Quang Dao — PhD student at CMU working on cryptography, formal verification, SNARKs, and post-quantum cryptography.">
+  <meta property="og:title" content="Quang Dao">
+  <meta property="og:description" content="PhD student at CMU working on cryptography, formal verification, SNARKs, and post-quantum cryptography.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://quangvdao.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="container">
 
-<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#publications">Publications</a></li> 
-				  <!-- <li><a href="#teaching">Teaching</a></li> -->
-				  <!-- <li><a href="#talks">Talks</a></li> -->
-				  <li><a href="CV/CV.pdf">CV</a></li>
-		  </ul>
-		</div>
-	  </div>
-	</nav>
-  
-  <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-
-            <!-- Entries Column -->
-            <div class="col-md-8">
-                
-                <!-- Main Image -->
-                <img class="img-responsive" src="photo_2024.jpg" width="200" alt><br>
-                
-                <div style="margin-top:3%; text-align:justify;">                
-					<p>I am a third-year PhD student at <a href="https://www.cs.cmu.edu/">CMU</a>, advised by <a href="https://sites.google.com/view/aayushjain/home/">Aayush Jain</a> and <a href="https://wahby.net/">Riad Wahby</a>. Before that, I got my MA in Math at the <a href="https://umich.edu/">University of Michigan</a>, where I worked with <a href="https://web.eecs.umich.edu/~paulgrub/">Paul Grubbs</a>.
-            <!-- I did my undergrad in Math & CS at Columbia University. -->
-          </p>
-
-          <p><b>Research Interests:</b> I work at the intersection of <b>cryptography</b> and <b>formal verification</b>. My goal is to build new verification tools for advanced cryptographic primitives, such as <b>succinct zero-knowledge proofs (SNARKs)</b>, and to use these tools to verify the security of existing constructions. I also work on <b>post-quantum cryptography</b>, with a focus on building new primitives from code-based assumptions.</p>
-
-          <p><b>Projects:</b> I created and lead the development of <a href="https://github.com/Verified-zkEVM/ArkLib">ArkLib</a>, a Lean library for formally verified SNARKs. I also work on <a href="https://github.com/dtumad/VCV-io">VCV-io</a>, a Lean framework for reasoning about cryptographic protocols, which ArkLib is built on top of.</p>
-
-          <p>My research is generously supported by the <a href="https://www.quadfellowship.org/"><b>Quad Fellowship</b></a>, the <a href="https://www.cylab.cmu.edu/news/2024/09/26-presidential-fellows.html"><b>CyLab Presidential Fellowship</b></a>, and funding from the <a href="https://verified-zkevm.org/">Ethereum Foundation</a>.</p>
-
-          <!-- <p><b>Recent Activities:</b> I will be an intern at <a href="https://a16zcrypto.com/">a16z crypto</a> this summer!</p> -->
-
-					<!--<p>In the past, I have studied algebraic geometry and did some research on algebraic combinatorics.</p>-->
-                </div>
-            </div> 
-
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Quang Dao</b></div><br>
-                <p><b><a href="mailto:qvd@andrew.cmu.edu">qvd@andrew.cmu.edu</a></b><br>
-                <p>
-                Carnegie Mellon University<br>
-                Pittsburgh, PA <br>
-                </p>
-            </div>
-            
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="https://scholar.google.com/citations?user=pN642RkAAAAJ&hl=en">Google Scholar</a></dd>
-              <dd><a href="https://twitter.com/QuangVDao">Twitter</a></dd>
-              <dd><a href="https://github.com/quang-dao">LinkedIn</a></dd>
-            </div>
-            
-      <div class="col-md-8">    
-        <h2 id="preprints">Preprints</h2>
-
-        <ul>
-          <li class="preprint" words="snarks,sum-check-protocol,optimization,zero-check,equality-polynomial,small-values"><a href="https://eprint.iacr.org/2025/1117">Speeding Up Sum-Check Proving</a>
-            <br>
-            Suyash Bagad, Quang Dao, Yuval Domb, Justin Thaler, <i>ePrint 2025.</i>
-            <br>
-            <small><i>Note: This paper combines and extends the results from <a href="https://eprint.iacr.org/2024/1046">2024/1046</a> and <a href="https://eprint.iacr.org/2024/1210">2024/1210</a>.</i></small></li>
-          </ul>
-
-          <ul>
-            <li class="preprint" words="snarks,sum-check-protocol,binary-tower-fields,constraint-packing"><a href="https://eprint.iacr.org/2024/1038">Constraint-Packing and the Sum-Check Protocol over Binary Tower Fields</a>
-              <br>
-              Quang Dao, Justin Thaler, <i>ePrint 2024.</i></li>
-            </ul>
-
-      </div>
-
-      <!-- Publications -->
-      <div class="col-md-8">    
-          <h2 id="publications">Publications</h2>
-          <p align="left"><font size="2">(* = first author(s). The rest are alphabetical order)</font></p>
-
-          <ul>
-            <li class="paper" words="jolt,lasso,formal-verfication,acl2,zkvm,risc-v,snarks"><a href="https://eprint.iacr.org/2024/1841">Verifying Jolt zkVM Lookup Semantics</a>
-              <br>
-              Carl Kwan*, Quang Dao*, Justin Thaler, <i>Financial Cryptography 2025.</i></li>
-            </ul>
-
-          <ul>
-            <li class="paper" words="code-based-cryptography,lossy-trapdoor-functions,lpn,dense-sparse-lpn,szk"><a href="https://eprint.iacr.org/2024/175">Lossy Cryptography from Code-Based Assumptions</a>
-              <br>
-              Quang Dao, Aayush Jain, <i>CRYPTO 2024. <b>Best Paper from Early Career Researchers!</b></i></li>
-            </ul>
-
-          <ul>
-            <li class="paper" words="nizk,correlation-intractability,lpn,mq,post-quantum"><a href="https://eprint.iacr.org/2024/1254">Non-Interactive Zero-Knowledge from LPN and MQ</a>
-              <br>
-              Quang Dao, Aayush Jain, Zhengzhong Jin, <i>CRYPTO 2024.</i></li>
-            </ul>
-          
-          <ul>
-          <li class="paper" words="homomorphic-secret-sharing,hss,sublinear-mpc,lpn,sparse-lpn"><a href="https://eprint.iacr.org/2023/1593.pdf">Multi-party Homomorphic Secret Sharing and Sublinear MPC from Sparse LPN</a>
-            <br>
-            Quang Dao, Yuval Ishai, Aayush Jain, Huijia Lin, <i>CRYPTO 2023.</i></li>
-          </ul>
-
-          <ul>
-            <li class="paper" words="fiat-shamir,attacks,snarks"><a href="https://eprint.iacr.org/2023/691">Weak Fiat-Shamir Attacks on Modern Proof Systems</a>
-              <br>
-              Quang Dao*, Jim Miller*, Opal Wright, Paul Grubbs, <i>IEEE S&P 2023. <b>Distinguished Paper Award!</b></i></li>
-            </ul>
-          
-
-          <ul>
-            <li class="paper" words="bulletproofs,spartan,snarks,sim-ext"><a href="https://eprint.iacr.org/2023/494">Spartan and Bulletproofs are simulation-extractable (for free!)</a>
-              <br>
-              Quang Dao, Paul Grubbs, <i>EUROCRYPT 2023.</i></li>
-            </ul>
-
-          <ul>
-          <li class="paper" words="rowmotion,combinatorics"><a href="https://arxiv.org/abs/2002.04810">Rowmotion Orbits of Trapezoid Posets</a> Quang Dao, Julian Wellman, Calvin Yost-Wolff, Sylvester W. Zhang, <i>The Electronic Journal of Combinatorics (2022): P2-29.</i></li>
-          </ul>
-      </div>
-
-      <!-- Miscellaneous -->
-      <div class="col-md-8">    
-        <h2 id="misc">Miscellaneous</h2>
-      
-        <ul>
-        <li class="misc" words="nestohedra,combinatorics"><a href="https://arxiv.org/abs/1912.00273">Extended Nestohedra and their Face Numbers</a> Quang Dao, Christina Meng, Julian Wellman, Zixuan Xu, Calvin Yost-Wolff, Teresa Yu, <i>preprint</i></li>
-        </ul>
-
-        <ul> In Summer 2021 at Michigan, I taught a <a href="http://www-personal.umich.edu/~malloryd/minicourses2021.html">grad student minicourse</a> on Schubert calculus.
-          <a href="schubert-calculus-minicourse/day1.pdf">Day 1</a>
-          <a href="schubert-calculus-minicourse/day2.pdf">Day 2</a>
-          <a href="schubert-calculus-minicourse/day3.pdf">Day 3</a>
-          <a href="schubert-calculus-minicourse/day4.pdf">Day 4</a>
-          <a href="schubert-calculus-minicourse/day5.pdf">Day 5</a>
-        </ul>
+  <!-- Profile -->
+  <header class="profile">
+    <img class="profile-photo" src="photo_2024.jpg" alt="Photo of Quang Dao" width="180" height="180">
+    <div class="profile-info">
+      <h1>Quang Dao</h1>
+      <p class="affiliation">PhD Student, Computer Science<br>Carnegie Mellon University</p>
+      <p><a href="mailto:qvd@andrew.cmu.edu">qvd@andrew.cmu.edu</a></p>
+      <ul class="profile-links">
+        <li><a href="https://scholar.google.com/citations?user=pN642RkAAAAJ&hl=en">Google Scholar</a></li>
+        <li><a href="https://github.com/quang-dao">GitHub</a></li>
+        <li><a href="https://x.com/QuangVDao">X</a></li>
+        <li><a href="https://www.linkedin.com/in/quang-dao/">LinkedIn</a></li>
+        <li><a href="CV/CV.pdf">CV</a></li>
+      </ul>
     </div>
+  </header>
 
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#preprints">Preprints</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#misc">Miscellaneous</a></li>
+    </ul>
+  </nav>
 
-      <!-- Talks -->
-	    <!-- <div class="col-md-8">
-      <h2 id="talks">Talks</h2>
-		    <ul> Spartan and Bulletproofs are simulation-extractable (for free!)</ul>
-        <ul> Slides</ul>
-        <ul> CMU Crypto Seminar</ul>
-      </div> -->
-		
+  <main>
 
-      <!-- Teaching -->
-	    <!-- <div class="col-md-8">
-      <h2 id="teaching">Teaching</h2>
-        <ul> Fall 2023: </ul>
-		    <ul> Fall 2020 - Fall 2021: <a href="http://www.math.lsa.umich.edu/courses/115">Math 115</a>.<br> </ul>
-      </div> -->
-      
+    <!-- About -->
+    <section id="about" class="bio">
+      <h2>About</h2>
+      <p>I am a fourth-year PhD student at <a href="https://www.cs.cmu.edu/">CMU</a>, advised by <a href="https://sites.google.com/view/aayushjain/home/">Aayush Jain</a> and <a href="https://wahby.net/">Riad Wahby</a>. Before that, I got my MA in Math at the <a href="https://umich.edu/">University of Michigan</a>, where I worked with <a href="https://web.eecs.umich.edu/~paulgrub/">Paul Grubbs</a>.</p>
 
-      <!-- Miscellaneous -->
-        <!-- <div class="col-md-8">
-      <h2 id="misc">Miscellaneous</h2> -->
+      <p><b>Research Interests:</b> I work at the intersection of <b>cryptography</b> and <b>formal verification</b>. My goal is to build new verification tools for advanced cryptographic primitives, such as <b>succinct zero-knowledge proofs (SNARKs)</b>, and to use these tools to verify the security of existing constructions. I also work on <b>post-quantum cryptography</b>, with a focus on building new primitives from code-based assumptions.</p>
 
-        <!-- </div> -->
+      <p><b>Projects:</b> I created and lead the development of <a href="https://github.com/Verified-zkEVM/ArkLib">ArkLib</a>, a Lean library for formally verified SNARKs. I also work on <a href="https://github.com/dtumad/VCV-io">VCV-io</a>, a Lean framework for reasoning about cryptographic protocols, which ArkLib is built on top of. I am also a main contributor to <a href="https://github.com/a16z/jolt">Jolt</a>, a state-of-the-art zero-knowledge virtual machine (zkVM) based on structured lookup arguments.</p>
 
+      <p>My research is generously supported by the <a href="https://www.quadfellowship.org/"><b>Quad Fellowship</b></a>, the <a href="https://www.cylab.cmu.edu/news/2024/09/26-presidential-fellows.html"><b>CyLab Presidential Fellowship</b></a>, and funding from the <a href="https://verified-zkevm.org/">Ethereum Foundation</a>.</p>
+    </section>
 
-    </div>
-    <!-- /.container -->
-    
-    <!-- Other people may like it too! 
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> -->
-    
+    <!-- Preprints -->
+    <section id="preprints">
+      <h2>Preprints</h2>
+      <ul class="pub-list">
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2025/1117">Speeding Up Sum-Check Proving</a><br>
+          <span class="pub-authors">Suyash Bagad, Quang Dao, Yuval Domb, Justin Thaler</span><br>
+          <span class="pub-venue">ePrint 2025.</span><br>
+          <span class="pub-note">Note: This paper combines and extends the results from <a href="https://eprint.iacr.org/2024/1046">2024/1046</a> and <a href="https://eprint.iacr.org/2024/1210">2024/1210</a>.</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2024/1038">Constraint-Packing and the Sum-Check Protocol over Binary Tower Fields</a><br>
+          <span class="pub-authors">Quang Dao, Justin Thaler</span><br>
+          <span class="pub-venue">ePrint 2024.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="authorship-note">(* = first author(s). The rest are in alphabetical order.)</p>
+      <ul class="pub-list">
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2025/2037">On the Simulation-Extractability of Proof-Carrying Data</a><br>
+          <span class="pub-authors">Behzad Abdolmaleki, Matteo Campanelli, Quang Dao, Hamidreza Khoshakhlagh</span><br>
+          <span class="pub-venue">PKC 2026.</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2024/1841">Verifying Jolt zkVM Lookup Semantics</a><br>
+          <span class="pub-authors">Carl Kwan*, Quang Dao*, Justin Thaler</span><br>
+          <span class="pub-venue">Financial Cryptography 2025.</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2024/175">Lossy Cryptography from Code-Based Assumptions</a><br>
+          <span class="pub-authors">Quang Dao, Aayush Jain</span><br>
+          <span class="pub-venue">CRYPTO 2024.</span> <span class="pub-award">Best Paper from Early Career Researchers!</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2024/1254">Non-Interactive Zero-Knowledge from LPN and MQ</a><br>
+          <span class="pub-authors">Quang Dao, Aayush Jain, Zhengzhong Jin</span><br>
+          <span class="pub-venue">CRYPTO 2024.</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2023/1593.pdf">Multi-party Homomorphic Secret Sharing and Sublinear MPC from Sparse LPN</a><br>
+          <span class="pub-authors">Quang Dao, Yuval Ishai, Aayush Jain, Huijia Lin</span><br>
+          <span class="pub-venue">CRYPTO 2023.</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2023/691">Weak Fiat-Shamir Attacks on Modern Proof Systems</a><br>
+          <span class="pub-authors">Quang Dao*, Jim Miller*, Opal Wright, Paul Grubbs</span><br>
+          <span class="pub-venue">IEEE S&amp;P 2023.</span> <span class="pub-award">Distinguished Paper Award!</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2023/494">Spartan and Bulletproofs are simulation-extractable (for free!)</a><br>
+          <span class="pub-authors">Quang Dao, Paul Grubbs</span><br>
+          <span class="pub-venue">EUROCRYPT 2023.</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://arxiv.org/abs/2002.04810">Rowmotion Orbits of Trapezoid Posets</a><br>
+          <span class="pub-authors">Quang Dao, Julian Wellman, Calvin Yost-Wolff, Sylvester W. Zhang</span><br>
+          <span class="pub-venue">The Electronic Journal of Combinatorics (2022): P2-29.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Miscellaneous -->
+    <section id="misc">
+      <h2>Miscellaneous</h2>
+      <ul class="misc-list">
+        <li>
+          <a class="pub-title" href="https://arxiv.org/abs/1912.00273">Extended Nestohedra and their Face Numbers</a><br>
+          <span class="pub-authors">Quang Dao, Christina Meng, Julian Wellman, Zixuan Xu, Calvin Yost-Wolff, Teresa Yu</span><br>
+          <span class="pub-venue">preprint</span>
+        </li>
+        <li>
+          In Summer 2021 at Michigan, I taught a <a href="http://www-personal.umich.edu/~malloryd/minicourses2021.html">grad student minicourse</a> on Schubert calculus.
+          <div class="minicourse-links">
+            <a href="schubert-calculus-minicourse/day1.pdf">Day 1</a>
+            <a href="schubert-calculus-minicourse/day2.pdf">Day 2</a>
+            <a href="schubert-calculus-minicourse/day3.pdf">Day 3</a>
+            <a href="schubert-calculus-minicourse/day4.pdf">Day 4</a>
+            <a href="schubert-calculus-minicourse/day5.pdf">Day 5</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+</div>
+
 </body>
-
 </html>
