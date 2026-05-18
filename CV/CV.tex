@@ -44,13 +44,20 @@
 
 \section{Research Interests}
 
-\cvitem{}{I work at the intersection of \textbf{cryptography} and \textbf{formal verification}. My goal is to build new verification tools for advanced cryptographic primitives, such as \textbf{succinct zero-knowledge proofs}, and to use these tools to verify the security of existing constructions. I also work on \textbf{post-quantum cryptography}, with a focus on building new primitives from code-based assumptions.}
+\cvitem{}{My research focuses on the \textbf{design}, \textbf{formal verification}, and \textbf{performance optimization} of \textbf{succinct zero-knowledge proofs (SNARKs)}. I founded and co-lead the development of \textbf{ArkLib}, a Lean library for compositionally verifying SNARK constructions, and am also a co-lead developer of \textbf{VCV-io}, a Lean framework for reasoning about cryptographic protocols that ArkLib builds on. I contribute to \textbf{Jolt}, a state-of-the-art zero-knowledge virtual machine (zkVM). My earlier work also explored foundational post-quantum cryptography from code-based assumptions.}
+
+% LATTICE-PQ TOGGLE: when the post-quantum lattice work is public, restore the
+% three-thread form by replacing the cvitem above with the line below:
+%
+% \cvitem{}{My research focuses on the \textbf{design}, \textbf{formal verification}, and \textbf{performance optimization} of \textbf{succinct zero-knowledge proofs (SNARKs)}. I founded and co-lead the development of \textbf{ArkLib}, a Lean library for compositionally verifying SNARK constructions, and am also a co-lead developer of \textbf{VCV-io}, a Lean framework for reasoning about cryptographic protocols that ArkLib builds on. I contribute to \textbf{Jolt}, a state-of-the-art zero-knowledge virtual machine (zkVM). I also work on \textbf{post-quantum, lattice-based cryptography}, including polynomial commitment schemes for SNARKs and lattice signature aggregation. My earlier work also explored foundational post-quantum cryptography from code-based assumptions.}
 
 \section{Publications}
 
-% \cvitem{}{\scriptsize (* = first author)}
+\cvitem{}{\scriptsize (* = first author)}
 
-\cvitem{7.}{Carl Kwan, \textbf{Quang Dao}, Justin Thaler. Verifying Jolt zkVM Lookup Semantics. \textit{Financial Cryptography 2025}.}
+\cvitem{8.}{Behzad Abdolmaleki, Matteo Campanelli, \textbf{Quang Dao}, Hamidreza Khoshakhlagh. On the Simulation-Extractability of Proof-Carrying Data. \textit{PKC 2026}.}
+
+\cvitem{7.}{Carl Kwan*, \textbf{Quang Dao}*, Justin Thaler. Verifying Jolt zkVM Lookup Semantics. \textit{Financial Cryptography 2025}.}
 
 \cvitem{6.}{\textbf{Quang Dao}, Aayush Jain. Lossy Cryptography from Code-Based Assumptions. \textit{CRYPTO 2024}. \textbf{\textit{Best Paper from Early Career Researchers.}}}
 
@@ -58,7 +65,7 @@
 
 \cvitem{4.}{\textbf{Quang Dao}, Yuval Ishai, Aayush Jain, Huijia Lin. Multi-party Homomorphic Secret Sharing and Sublinear MPC from Sparse LPN. \textit{CRYPTO 2023}.}
 
-\cvitem{3.}{\textbf{Quang Dao}, Jim Miller, Opal Wright, Paul Grubbs. Weak Fiat-Shamir Attacks on Modern Proof Systems. \textit{IEEE S\&P 2023}. \textbf{\textit{Distinguished Paper Award.}}}
+\cvitem{3.}{\textbf{Quang Dao}*, Jim Miller*, Opal Wright, Paul Grubbs. Weak Fiat-Shamir Attacks on Modern Proof Systems. \textit{IEEE S\&P 2023}. \textbf{\textit{Distinguished Paper Award.}}}
 
 \cvitem{2.}{\textbf{Quang Dao}, Paul Grubbs. Spartan and Bulletproofs are simulation-extractable (for free!). \textit{EUROCRYPT 2023}.}
 
@@ -66,32 +73,33 @@
 
 \section{Preprints}
 
-\cvitem{3.}{Suyash Bagad, \textbf{Quang Dao}, Yuval Domb, Justin Thaler. Speeding-Up Sum-Check Proving. \textit{In submission}.}
+\cvitem{4.}{Devon Tuma*, \textbf{Quang Dao}*, James Waters, Alexander Hicks, Nicholas Hopper. VCVio: Verified Cryptography in Lean via Oracle Effects and Handlers. \textit{ePrint 2026}.}
 
-% \cvitem{3.}{\textbf{Quang Dao}, Justin Thaler. More Optimizations to Sum-Check Proving. \textit{ePrint 2024}.}
+\cvitem{3.}{\textbf{Quang Dao}, Ari Biswas, Liam Eagen, Andrew Milson, Shahar Papini, Justin Thaler. The Sum-Check Protocol over the Monomial Basis, and Other Optimizations. \textit{ePrint 2026}.}
 
-\cvitem{2.}{\textbf{Quang Dao}, Justin Thaler. Constraint-Packing and the Sum-Check Protocol over Binary Tower Fields. \textit{ePrint 2024}.}
+\cvitem{2.}{\textbf{Quang Dao}, Zachary DeStefano, Suyash Bagad, Yuval Domb, Justin Thaler. Speeding Up Sum-Check Proving (Extended Version). \textit{ePrint 2026}. \textit{(Combines and improves upon results from ePrint 2025/1117, 2024/1046, and 2024/1210.)}}
 
-\cvitem{1.}{\textbf{Quang Dao}, Christina Meng, Julian Wellman, Zixuan Xu, Calvin Yost-Wolff, Teresa Yu. Extended Nestohedra and their Face Numbers. \textit{arXiv 2019}.}
+\cvitem{1.}{\textbf{Quang Dao}, Justin Thaler. Constraint-Packing and the Sum-Check Protocol over Binary Tower Fields. \textit{ePrint 2024}.}
+
+
+\section{Projects}
+
+\cvitem{\textbf{ArkLib}}{\href{https://github.com/Verified-zkEVM/ArkLib}{github.com/Verified-zkEVM/ArkLib}. Lean library for formally verified SNARKs. Founder and co-lead developer.}
+
+\cvitem{\textbf{VCV-io}}{\href{https://github.com/dtumad/VCV-io}{github.com/dtumad/VCV-io}. Lean framework for reasoning about cryptographic protocols; ArkLib is built on top of it. Co-lead developer.}
+
+\cvitem{\textbf{Jolt}}{\href{https://github.com/a16z/jolt}{github.com/a16z/jolt}. State-of-the-art zero-knowledge virtual machine (zkVM) based on structured lookup arguments. Main contributor.}
 
 
 \section{Grants \& Fellowships}
 
-% \cvitem{2025}{
-%     \textbf{Ethereum Foundation Grant} \newline
-%     Grant for the formalization of the IOR framework, t
-%     \newline
-%     Amount: \$24,000
-%     % (for 1 person, over 5 months)
-% }
-
-% \cvitem{2025}{
-%     \textbf{Ethereum Foundation Grant} \newline
-%     Grant for the formalization of the Binius Polynomial Commitment Scheme
-%     \newline
-%     Amount: \$24,000
-%     % (for 1 person, over 5 months)
-% }
+\cvitem{2025}{
+    \textbf{Ethereum Foundation Grant} \newline
+    Grant for the formalization of the Binius Polynomial Commitment Scheme
+    \newline
+    Amount: \$24,000
+    % (for 1 person, over 5 months)
+}
 
 \cvitem{2025}{
     \textbf{Ethereum Foundation Grant} \newline
@@ -136,11 +144,18 @@ Awarded annually to the top 3 non-senior students in math at Columbia}
 
 \cvitem{2016}{\textbf{International Math Olympiad}. Silver Medal}
 
-\section{Internships \& Visiting Positions}
+\section{Industry Experience}
+\cvitem{Jan 2026 -- Present}{Part-Time Researcher at LayerZero.}
 \cvitem{Summer 2025}{Part-Time Contractor with a16z crypto.}
 \cvitem{Summer 2024}{Research Intern at a16z crypto.}
 
 \section{Talks}
+
+\cvitem{9.}{Evolving the Foundations of ArkLib
+\begin{itemize}
+    \item \href{https://www.youtube.com/watch?v=2lXCtxk-XxI}{ZKProof 8, Rome (May 2026)}
+\end{itemize}
+}
 
 \cvitem{8.}{ArkLib: Compositional Verification of SNARKs
 \begin{itemize}
@@ -197,6 +212,7 @@ Awarded annually to the top 3 non-senior students in math at Columbia}
     \item Cornell Security Seminar (Sep 2023)
     \item NYU Crypto Reading Group (Sep 2023)
     \item Workshop on Attacks in Cryptography (Aug 2023)
+    \item IEEE S\&P (May 2023)
 \end{itemize}
 }
 
@@ -234,7 +250,7 @@ Awarded annually to the top 3 non-senior students in math at Columbia}
 
 \section{Mentorship}
 \cvitem{Chung Nguyen}{Post-baccalaureate, 2025--Present}
-\cvitem{James Waters}{Undergraduate, Fall 2025--Present}
+\cvitem{James Waters}{Undergraduate, Fall 2025--Summer 2026}
 \cvitem{Liam Schilling}{Undergraduate, Spring \& Fall 2025}
 \cvitem{Ian Martin}{Undergraduate, Summer 2025}
 \cvitem{Jack Zhu}{Undergraduate, Spring 2025}
@@ -242,10 +258,8 @@ Awarded annually to the top 3 non-senior students in math at Columbia}
 
 \section{Miscellaneous}
 \cvitem{Languages}{English (fluent), Vietnamese (native), French (elementary), Malayalam (elementary)}
+\cvitem{Other writing}{\textbf{Quang Dao}, Christina Meng, Julian Wellman, Zixuan Xu, Calvin Yost-Wolff, Teresa Yu. Extended Nestohedra and their Face Numbers. \textit{arXiv 2019}.}
 % \cvitem{Citizenship}{Vietnamese}
-% \cvitem{Skills}{LaTeX, Python, Lean, ACL2, Rust, Sage} 
-% Trivial stuff
-% \cvitem{Interests}{}
 
 
 \end{document}

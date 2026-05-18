@@ -52,11 +52,17 @@
     <!-- About -->
     <section id="about" class="bio">
       <h2>About</h2>
+      <!-- TODO: switch "fourth-year" to "fifth-year" the next time this is edited if the current date is August 2026 or later. -->
       <p>I am a fourth-year PhD student at <a href="https://www.cs.cmu.edu/">CMU</a>, advised by <a href="https://sites.google.com/view/aayushjain/home/">Aayush Jain</a> and <a href="https://wahby.net/">Riad Wahby</a>. I also work part-time at <a href="https://layerzero.network/">LayerZero</a> as a member of the research team. Before that, I got my MA in Math at the <a href="https://umich.edu/">University of Michigan</a>, where I worked with <a href="https://web.eecs.umich.edu/~paulgrub/">Paul Grubbs</a>.</p>
 
-      <p><b>Research Interests:</b> I work at the intersection of <b>cryptography</b> and <b>formal verification</b>. My goal is to build new verification tools for advanced cryptographic primitives, such as <b>succinct zero-knowledge proofs (SNARKs)</b>, and to use these tools to verify the security of existing constructions. I also work on <b>post-quantum cryptography</b>, with a focus on building new primitives from code-based assumptions.</p>
+      <p><b>Research Interests:</b> My research focuses on the <b>design</b>, <b>formal verification</b>, and <b>performance optimization</b> of <b>succinct zero-knowledge proofs (SNARKs)</b>. I currently work on building modular, machine-checked verification tools for SNARK constructions in Lean (ArkLib, VCV-io) and on designing faster prover-side algorithms for the sum-check protocol. My earlier work also explored foundational post-quantum cryptography from code-based assumptions.</p>
+      <!-- LATTICE-PQ TOGGLE: when the post-quantum lattice work is public, restore the three-direction form by replacing the paragraph above with the paragraph below.
 
-      <p><b>Projects:</b> I created and lead the development of <a href="https://github.com/Verified-zkEVM/ArkLib"><b>ArkLib</b></a>, a Lean library for formally verified SNARKs. I also work on <a href="https://github.com/dtumad/VCV-io"><b>VCV-io</b></a>, a Lean framework for reasoning about cryptographic protocols, which ArkLib is built on top of. I am also a main contributor to <a href="https://github.com/a16z/jolt"><b>Jolt</b></a>, a state-of-the-art zero-knowledge virtual machine (zkVM) based on structured lookup arguments.</p>
+      <p><b>Research Interests:</b> My research focuses on the <b>design</b>, <b>formal verification</b>, and <b>performance optimization</b> of <b>succinct zero-knowledge proofs (SNARKs)</b>. Three directions are currently active: building modular, machine-checked verification tools for SNARK constructions in Lean (ArkLib, VCV-io); designing faster prover-side algorithms for the sum-check protocol; and developing <b>post-quantum, lattice-based cryptography</b>, with applications to polynomial commitment schemes for SNARKs and lattice signature aggregation. My earlier work also explored foundational post-quantum cryptography from code-based assumptions.</p>
+
+      -->
+
+      <p><b>Projects:</b> I founded and co-lead the development of <a href="https://github.com/Verified-zkEVM/ArkLib"><b>ArkLib</b></a>, a Lean library for formally verified SNARKs. I am also a co-lead developer of <a href="https://github.com/dtumad/VCV-io"><b>VCV-io</b></a>, a Lean framework for reasoning about cryptographic protocols that ArkLib builds on. I am a main contributor to <a href="https://github.com/a16z/jolt"><b>Jolt</b></a>, a state-of-the-art zero-knowledge virtual machine (zkVM) based on structured lookup arguments.</p>
 
       <p>My research is generously supported by the <a href="https://www.quadfellowship.org/"><b>Quad Fellowship</b></a>, the <a href="https://www.cylab.cmu.edu/news/2024/09/26-presidential-fellows.html"><b>CyLab Presidential Fellowship</b></a>, and funding from the <a href="https://verified-zkevm.org/"><b>Ethereum Foundation</b></a>.</p>
     </section>
@@ -65,6 +71,16 @@
     <section id="preprints">
       <h2>Preprints</h2>
       <ul class="pub-list">
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2026/899">VCVio: Verified Cryptography in Lean via Oracle Effects and Handlers</a><br>
+          <span class="pub-authors">Devon Tuma*, Quang Dao*, James Waters, Alexander Hicks, Nicholas Hopper</span><br>
+          <span class="pub-venue">ePrint 2026.</span>
+        </li>
+        <li>
+          <a class="pub-title" href="https://eprint.iacr.org/2026/762">The Sum-Check Protocol over the Monomial Basis, and Other Optimizations</a><br>
+          <span class="pub-authors">Quang Dao, Ari Biswas, Liam Eagen, Andrew Milson, Shahar Papini, Justin Thaler</span><br>
+          <span class="pub-venue">ePrint 2026.</span>
+        </li>
         <li>
           <a class="pub-title" href="https://eprint.iacr.org/2026/587">Speeding Up Sum-Check Proving (Extended Version)</a><br>
           <span class="pub-authors">Quang Dao, Zachary DeStefano, Suyash Bagad, Yuval Domb, Justin Thaler</span><br>
@@ -132,6 +148,10 @@
       <h2>Talks</h2>
       <ul class="talk-list">
         <li>
+          <span class="pub-title">Evolving the Foundations of ArkLib</span>
+          <div class="talk-venues"><a href="https://www.youtube.com/watch?v=2lXCtxk-XxI">ZKProof 8, Rome (May 2026)</a></div>
+        </li>
+        <li>
           <span class="pub-title">ArkLib: Compositional Verification of SNARKs</span>
           <div class="talk-venues">Real World Crypto (Mar 2026), <a href="https://www.youtube.com/watch?v=4aVI7MS0S4g">Verified zk(E)VM Seminar (Jan 2026)</a>, King's College London (Oct 2025), University of Cambridge (Oct 2025), <a href="https://www.youtube.com/watch?v=3gMGqr96bjY">Ethereum's PQ Interop (Oct 2025)</a>, CMU PLunch (Sep 2025), University of Luxembourg Crypto Seminar (Jul 2025), CRYPTO Day, Telecom Paris (Jun 2025), EPFL Crypto Seminar (Jun 2025), CMU Formal Cookies (Oct 2024)</div>
         </li>
@@ -177,7 +197,7 @@
       <h2>Mentorship</h2>
       <ul class="misc-list">
         <li><b>Chung Nguyen</b>, Post-baccalaureate, 2025-present</li>
-        <li><b>James Waters</b>, Undergraduate, Fall 2025-present</li>
+        <li><b>James Waters</b>, Undergraduate, Fall 2025 &ndash; Summer 2026</li>
         <li><b>Liam Schilling</b>, Undergraduate, Spring &amp; Fall 2025</li>
         <li><b>Ian Martin</b>, Undergraduate, Summer 2025</li>
         <li><b>Jack Zhu</b>, Undergraduate, Spring 2025</li>
