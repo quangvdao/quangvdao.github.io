@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "name": "Quang Dao — Authored Papers",
+  "description": "Self-hosted PDFs for papers listed on Quang Dao's website.",
+  "updated": "2026-07-25",
+  "version_policy": "Use the latest public ePrint or arXiv PDF available on the checked date. Conference proceedings and journal pages remain separate alternate-version links.",
+  "homepage": "https://quangvdao.github.io/",
+  "papers": [
+    {
+      "id": "2026/1298",
+      "title": "Weak Keys Break the BUFF Security of HAWK",
+      "source_url": "https://eprint.iacr.org/2026/1298",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/weak-keys-break-buff-security-hawk.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 17,
+      "bytes": 597197,
+      "sha256": "c21e74b4a00f73fa07247b8699be98e536ecda4ee8e148ec03d150181a7a27c0"
+    },
+    {
+      "id": "2026/1036",
+      "title": "Resettable Non-Interactive Zero-Knowledge: Attacks and Defenses",
+      "source_url": "https://eprint.iacr.org/2026/1036",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/resettable-nizk-attacks-defenses.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 41,
+      "bytes": 745752,
+      "sha256": "7172eb01223dd01f33b285ced4d6f1579cb48acafcb3ec223029c73bc537215c"
+    },
+    {
+      "id": "2026/899",
+      "title": "VCVio: Verified Cryptography in Lean via Oracle Effects and Handlers",
+      "source_url": "https://eprint.iacr.org/2026/899",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/vcvio-verified-cryptography-lean.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 26,
+      "bytes": 851343,
+      "sha256": "572ef03f00e0a08e94471ac3eb6c726bd19d154aea17c3e34fe3cecc8148d6bd"
+    },
+    {
+      "id": "2026/762",
+      "title": "The Sum-Check Protocol over the Monomial Basis, and Other Optimizations",
+      "source_url": "https://eprint.iacr.org/2026/762",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/monomial-basis-sum-check.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 34,
+      "bytes": 590707,
+      "sha256": "1a61becbb76ffaf8a21c5251886ac4eae8fe7595e66c024057e1fbce1150bdd5"
+    },
+    {
+      "id": "2024/1038",
+      "title": "Constraint-Packing and the Sum-Check Protocol over Binary Tower Fields",
+      "source_url": "https://eprint.iacr.org/2024/1038",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/constraint-packing-binary-tower-fields.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 11,
+      "bytes": 394737,
+      "sha256": "7261faf635fa5aed9bd38cb5450683c511874a543a2da0a89a8ddb7ee91114dc"
+    },
+    {
+      "id": "2026/587",
+      "title": "Speeding Up Sum-Check Proving",
+      "source_url": "https://eprint.iacr.org/2026/587",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/speeding-up-sum-check-proving.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 51,
+      "bytes": 756773,
+      "sha256": "04ac867dc2d2e68f967bbb4550c1afe1340439e8b0aae1611464c4e433f8a1a7"
+    },
+    {
+      "id": "2025/2037",
+      "title": "On the Simulation-Extractability of Proof-Carrying Data",
+      "source_url": "https://eprint.iacr.org/2025/2037",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/simulation-extractability-proof-carrying-data.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 28,
+      "bytes": 470624,
+      "sha256": "aa5310a1608368186ba703b52baf8f500f402ec20190ba6b07f78bfdf72d1e26",
+      "alternate_versions": [
+        {
+          "label": "PKC 2026 proceedings",
+          "url": "https://doi.org/10.1007/978-3-032-26737-5_9"
+        }
+      ]
+    },
+    {
+      "id": "2024/1841",
+      "title": "Verifying Jolt zkVM Lookup Semantics",
+      "source_url": "https://eprint.iacr.org/2024/1841",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/verifying-jolt-zkvm-lookup-semantics.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 50,
+      "bytes": 668627,
+      "sha256": "9bbd882b160a585cc058df9f01692f7e4e0630b65eefa959c103c92bf2155ddd",
+      "alternate_versions": [
+        {
+          "label": "Financial Cryptography 2025 proceedings",
+          "url": "https://doi.org/10.1007/978-3-032-07024-1_10"
+        }
+      ]
+    },
+    {
+      "id": "2024/175",
+      "title": "Lossy Cryptography from Code-Based Assumptions",
+      "source_url": "https://eprint.iacr.org/2024/175",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/lossy-cryptography-code-based-assumptions.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 43,
+      "bytes": 591610,
+      "sha256": "aace66c446bff9291834a0b158c2752a435c4b611b6b6c9e4e826afe731fbf11",
+      "alternate_versions": [
+        {
+          "label": "CRYPTO 2024 proceedings",
+          "url": "https://doi.org/10.1007/978-3-031-68382-4_2"
+        },
+        {
+          "label": "Journal of Cryptology",
+          "url": "https://doi.org/10.1007/s00145-025-09553-6"
+        }
+      ]
+    },
+    {
+      "id": "2024/1254",
+      "title": "Non-Interactive Zero-Knowledge from LPN and MQ",
+      "source_url": "https://eprint.iacr.org/2024/1254",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/nizk-lpn-mq.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 38,
+      "bytes": 608616,
+      "sha256": "54d5fbe46836cccd36aab40b8a2839028b64169f0ac0a8960d637352c4ada13d",
+      "alternate_versions": [
+        {
+          "label": "CRYPTO 2024 proceedings",
+          "url": "https://doi.org/10.1007/978-3-031-68400-5_10"
+        }
+      ]
+    },
+    {
+      "id": "2023/1593",
+      "title": "Multi-party Homomorphic Secret Sharing and Sublinear MPC from Sparse LPN",
+      "source_url": "https://eprint.iacr.org/2023/1593",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/multi-party-hss-sublinear-mpc-sparse-lpn.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 45,
+      "bytes": 624982,
+      "sha256": "7c069044d31f0c387ffb91dfc69a5490865ae73b76d0f245be2c70fd0ff31785",
+      "alternate_versions": [
+        {
+          "label": "CRYPTO 2023 proceedings",
+          "url": "https://doi.org/10.1007/978-3-031-38545-2_11"
+        }
+      ]
+    },
+    {
+      "id": "2023/691",
+      "title": "Weak Fiat-Shamir Attacks on Modern Proof Systems",
+      "source_url": "https://eprint.iacr.org/2023/691",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/weak-fiat-shamir-attacks.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 18,
+      "bytes": 524547,
+      "sha256": "44286b6e197b44c5a7a464be732630099e8c0c695cfe0a2e15bd2c3fa875904e",
+      "alternate_versions": [
+        {
+          "label": "IEEE Symposium on Security and Privacy 2023",
+          "url": "https://doi.org/10.1109/SP46215.2023.10179408"
+        }
+      ]
+    },
+    {
+      "id": "2023/494",
+      "title": "Spartan and Bulletproofs are simulation-extractable (for free!)",
+      "source_url": "https://eprint.iacr.org/2023/494",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/spartan-bulletproofs-simulation-extractable.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
+      "pages": 44,
+      "bytes": 871166,
+      "sha256": "b7ae9273551ea837c5c6c6b51b85901de8942fd305fb28da65bca7a4be989fee",
+      "alternate_versions": [
+        {
+          "label": "EUROCRYPT 2023 proceedings",
+          "url": "https://doi.org/10.1007/978-3-031-30617-4_18"
+        }
+      ]
+    },
+    {
+      "id": "arXiv:2002.04810",
+      "title": "Rowmotion Orbits of Trapezoid Posets",
+      "source_url": "https://arxiv.org/abs/2002.04810",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/rowmotion-orbits-trapezoid-posets.pdf",
+      "artifact_basis": "arXiv v1, the current arXiv PDF checked 2026-07-25",
+      "pages": 31,
+      "bytes": 1314423,
+      "sha256": "da725f284bdc1690aa128edfc4162a88d47f80051281e0b90949d650d0f4ee91",
+      "alternate_versions": [
+        {
+          "label": "Electronic Journal of Combinatorics",
+          "url": "https://doi.org/10.37236/9769"
+        }
+      ]
+    },
+    {
+      "id": "arXiv:1912.00273",
+      "title": "Extended Nestohedra and their Face Numbers",
+      "source_url": "https://arxiv.org/abs/1912.00273",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/extended-nestohedra-face-numbers.pdf",
+      "artifact_basis": "arXiv v2, the current arXiv PDF checked 2026-07-25",
+      "pages": 66,
+      "bytes": 1891320,
+      "sha256": "e718ee96bd813f1314c196530f7c521e27d1b122f74b70181f3bb2837b99cc9f"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quangvdao.github.io/papers/manifest.schema.json",
+  "title": "Quang Dao paper mirror and citation catalogue",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "updated",
+    "visibility",
+    "availability_definitions",
+    "collections",
+    "coverage",
+    "papers"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "visibility": {
+      "type": "object"
+    },
+    "collections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "description", "paper_count"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "paper_count": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "papers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/catalogueRecord"
+      }
+    }
+  },
+  "$defs": {
+    "catalogueRecord": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "kind",
+        "relations",
+        "collections",
+        "availability",
+        "license_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "enum": ["authored", "cited", "curated"]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "collections": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "availability": {
+          "enum": ["mirrored", "source-only", "metadata-only"]
+        },
+        "license_status": {
+          "enum": ["reviewed", "not-reviewed", "not-recorded"]
+        },
+        "identifiers": {
+          "type": "object",
+          "properties": {
+            "eprint": {
+              "type": "string"
+            },
+            "arxiv": {
+              "type": "string"
+            },
+            "doi": {
+              "type": "string"
+            }
+          }
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "mirror_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pages": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "availability": {
+                "const": "mirrored"
+              }
+            }
+          },
+          "then": {
+            "required": ["mirror_url", "sha256", "bytes", "pages"]
+          }
+        }
+      ]
+    }
+  }
+}

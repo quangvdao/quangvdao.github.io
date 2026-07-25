@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-07-25",
+  "research_root": "~/Documents/Research",
+  "sources": [
+    {
+      "id": "akita",
+      "folder": "lattice-jolt",
+      "entry": "akita.tex",
+      "collections": ["citation-closure", "snarks", "pcs", "lattice-zk"]
+    },
+    {
+      "id": "lattice-jolt",
+      "folder": "lattice-jolt",
+      "entry": "jolt-spec.tex",
+      "collections": ["citation-closure", "snarks", "zkvm"]
+    },
+    {
+      "id": "vcvio",
+      "folder": "vcvio-paper",
+      "entry": "main.tex",
+      "collections": ["citation-closure", "formal-verification"]
+    },
+    {
+      "id": "monomial-sumcheck",
+      "folder": "monomial-sumcheck",
+      "entry": "main.tex",
+      "collections": ["citation-closure", "snarks", "sumcheck"]
+    },
+    {
+      "id": "speeding-up-sumcheck",
+      "folder": "speeding-up-sumcheck",
+      "entry": "main.tex",
+      "collections": ["citation-closure", "snarks", "sumcheck"]
+    },
+    {
+      "id": "abcs-jolt",
+      "folder": "jolt-advice-bytecode-paper",
+      "entry": "pst_short.tex",
+      "collections": ["citation-closure", "snarks", "zkvm"]
+    },
+    {
+      "id": "jolt-spec",
+      "folder": "jolt-spec",
+      "entry": "main.tex",
+      "collections": ["citation-closure", "snarks", "zkvm", "formal-verification"]
+    },
+    {
+      "id": "jolt-recursion",
+      "folder": "jolt-zkproof-submission",
+      "entry": "paper.tex",
+      "collections": ["citation-closure", "snarks", "zkvm"]
+    },
+    {
+      "id": "lattice-vid",
+      "folder": "lattice-vid",
+      "entry": "main.tex",
+      "collections": ["citation-closure", "lattice-zk"]
+    },
+    {
+      "id": "hawk-buff",
+      "folder": "hawk-buff",
+      "entry": "main.tex",
+      "collections": ["citation-closure", "post-quantum-cryptography"]
+    }
+  ]
+}
