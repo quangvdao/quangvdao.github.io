@@ -5,7 +5,7 @@
   "description": "An unlisted, machine-readable mirror for user-directed agent retrieval of lattice-based zero-knowledge, succinct-argument, polynomial-commitment, and folding papers.",
   "visibility": "unlisted",
   "intended_use": "Direct retrieval by agents that have been explicitly given the manifest URL. This collection is not part of the human-facing website.",
-  "updated": "2026-07-25",
+  "updated": "2026-07-27",
   "collection_license_note": "No blanket license is asserted over the collection. Each paper retains its own license.",
   "retrieval": {
     "authentication": "none",
@@ -46,6 +46,22 @@
       "bytes": 816209,
       "pages": 82,
       "sha256": "6353310a4d42501a9c028349aefca46b839d1efb27e09f542d4d567514f478a3"
+    },
+    {
+      "eprint_id": "2021/1397",
+      "title": "Practical Non-interactive Publicly Verifiable Secret Sharing with Thousands of Parties",
+      "authors": ["Craig Gentry", "Shai Halevi", "Vadim Lyubashevsky"],
+      "year": 2021,
+      "category": "applications and tools",
+      "tags": ["PVSS", "LWE", "Bulletproofs", "Johnson-Lindenstrauss"],
+      "source_url": "https://eprint.iacr.org/2021/1397",
+      "mirror_url": "https://quangvdao.github.io/papers/lattice-zk/2021-1397.pdf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": false,
+      "bytes": 654412,
+      "pages": 45,
+      "sha256": "437a14cc34adbf61ecd9a5a509a527ccf49d010eb948ab73f5d20d586c222938"
     },
     {
       "eprint_id": "2022/284",

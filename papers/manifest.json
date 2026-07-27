@@ -21,7 +21,7 @@
     {
       "id": "applications-and-tools",
       "description": "Applications and tooling for lattice proof systems.",
-      "paper_count": 4
+      "paper_count": 5
     },
     {
       "id": "authored",
@@ -89,12 +89,12 @@
     "by_relation": {
       "authored": 15,
       "cited": 200,
-      "curated": 21
+      "curated": 22
     },
     "by_availability": {
       "metadata-only": 78,
-      "mirrored": 36,
-      "source-only": 102
+      "mirrored": 37,
+      "source-only": 101
     },
     "citation_sources_processed": 5,
     "citation_sources_missing": 5,
@@ -4970,46 +4970,6 @@
       "source_url": "https://doi.org/10.3929/ethz-b-000574844"
     },
     {
-      "id": "eprint:2021/1397",
-      "title": "Practical Non-interactive Publicly Verifiable Secret Sharing with Thousands of Parties",
-      "kind": "inproceedings",
-      "relations": [
-        "cited"
-      ],
-      "collections": [
-        "citation-closure",
-        "lattice-zk",
-        "pcs",
-        "snarks"
-      ],
-      "cited_by": [
-        "akita"
-      ],
-      "citation_keys": [
-        "ghl_pvss"
-      ],
-      "availability": "source-only",
-      "license_status": "not-reviewed",
-      "provenance": {
-        "writing_sources": [
-          "akita"
-        ],
-        "bibliography_files": [
-          "lattice-jolt/spice.bib"
-        ]
-      },
-      "authors": [
-        "Craig Gentry",
-        "Shai Halevi",
-        "Vadim Lyubashevsky"
-      ],
-      "year": 2022,
-      "identifiers": {
-        "eprint": "2021/1397"
-      },
-      "source_url": "https://eprint.iacr.org/2021/1397"
-    },
-    {
       "id": "title:proofs-arguments-and-zero-knowledge",
       "title": "Proofs, arguments, and zero-knowledge",
       "kind": "article",
@@ -5324,6 +5284,62 @@
       ],
       "year": 2021,
       "source_url": "https://www.nccgroup.com/research-blog/optimizing-pairing-based-cryptography-montgomery-multiplication-in-assembly/"
+    },
+    {
+      "id": "eprint:2021/1397",
+      "title": "Practical Non-interactive Publicly Verifiable Secret Sharing with Thousands of Parties",
+      "authors": [
+        "Craig Gentry",
+        "Shai Halevi",
+        "Vadim Lyubashevsky"
+      ],
+      "year": 2021,
+      "kind": "paper",
+      "relations": [
+        "cited",
+        "curated"
+      ],
+      "collections": [
+        "applications-and-tools",
+        "citation-closure",
+        "lattice-zk",
+        "pcs",
+        "snarks"
+      ],
+      "tags": [
+        "PVSS",
+        "LWE",
+        "Bulletproofs",
+        "Johnson-Lindenstrauss"
+      ],
+      "availability": "mirrored",
+      "license_status": "reviewed",
+      "identifiers": {
+        "eprint": "2021/1397"
+      },
+      "source_url": "https://eprint.iacr.org/2021/1397",
+      "mirror_url": "https://quangvdao.github.io/papers/lattice-zk/2021-1397.pdf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": false,
+      "pages": 45,
+      "bytes": 654412,
+      "sha256": "437a14cc34adbf61ecd9a5a509a527ccf49d010eb948ab73f5d20d586c222938",
+      "provenance": {
+        "collection_manifest": "papers/collections/lattice-zk.json",
+        "writing_sources": [
+          "akita"
+        ],
+        "bibliography_files": [
+          "lattice-jolt/spice.bib"
+        ]
+      },
+      "cited_by": [
+        "akita"
+      ],
+      "citation_keys": [
+        "ghl_pvss"
+      ]
     },
     {
       "id": "doi:10.1109/sp40001.2021.00008",
