@@ -164,6 +164,23 @@ section h2 {
   font-weight: 600;
 }
 
+.bio .project-heading {
+  margin-bottom: var(--spacing-sm);
+}
+
+.project-list {
+  margin-bottom: var(--spacing-md);
+  padding-left: 1.25rem;
+}
+
+.project-list li {
+  margin-bottom: var(--spacing-sm);
+}
+
+.project-list li::marker {
+  color: var(--color-text-secondary);
+}
+
 /* ---------- Publication List ---------- */
 
 .pub-list {
