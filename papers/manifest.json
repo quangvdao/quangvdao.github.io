@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "name": "Quang Dao — Paper Mirror and Citation Catalogue",
   "description": "A machine-readable catalogue of authored papers, an unlisted external-paper mirror, and the citation closure available from allowlisted writing sources.",
-  "updated": "2026-07-25",
+  "updated": "2026-09-21",
   "schema_url": "https://quangvdao.github.io/papers/manifest.schema.json",
   "visibility": {
     "authored": "homepage-linked",
@@ -26,7 +26,7 @@
     {
       "id": "authored",
       "description": "Papers authored or co-authored by Quang Dao and linked from the homepage.",
-      "paper_count": 15
+      "paper_count": 17
     },
     {
       "id": "citation-closure",
@@ -85,15 +85,15 @@
     }
   ],
   "coverage": {
-    "catalog_records": 216,
+    "catalog_records": 218,
     "by_relation": {
-      "authored": 15,
+      "authored": 17,
       "cited": 200,
       "curated": 22
     },
     "by_availability": {
       "metadata-only": 78,
-      "mirrored": 37,
+      "mirrored": 39,
       "source-only": 101
     },
     "citation_sources_processed": 5,
@@ -205,6 +205,58 @@
     "scope_note": "Citation closure covers only source trees listed in catalog-sources.json that resolve on this machine. It does not yet cover every paper on the homepage."
   },
   "papers": [
+    {
+      "id": "eprint:2026/2056",
+      "title": "Reed-Solomon Codes Beyond Johnson: Efficient Decoding and Smaller Cryptographic Proofs",
+      "kind": "paper",
+      "relations": [
+        "authored"
+      ],
+      "collections": [
+        "authored"
+      ],
+      "availability": "mirrored",
+      "license_status": "not-recorded",
+      "identifiers": {
+        "eprint": "2026/2056"
+      },
+      "source_url": "https://eprint.iacr.org/2026/2056",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/reed-solomon-codes-beyond-johnson.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-09-21",
+      "pages": 145,
+      "bytes": 1105181,
+      "sha256": "b67c188ec477b6063caf9c1c06b214c71e358ff09b9517adcdb1db212ea2700a",
+      "provenance": {
+        "collection_manifest": "papers/authored/manifest.json"
+      },
+      "year": 2026
+    },
+    {
+      "id": "eprint:2026/1983",
+      "title": "Akita: A High-Performance Lattice-Based Polynomial Commitment Scheme",
+      "kind": "paper",
+      "relations": [
+        "authored"
+      ],
+      "collections": [
+        "authored"
+      ],
+      "availability": "mirrored",
+      "license_status": "not-recorded",
+      "identifiers": {
+        "eprint": "2026/1983"
+      },
+      "source_url": "https://eprint.iacr.org/2026/1983",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/akita-high-performance-lattice-pcs.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-09-21",
+      "pages": 181,
+      "bytes": 1596503,
+      "sha256": "05a483bd047a76e1dcde1335c7541c1d44a4db9ff346fb6b09ab1e967a51c701",
+      "provenance": {
+        "collection_manifest": "papers/authored/manifest.json"
+      },
+      "year": 2026
+    },
     {
       "id": "eprint:2026/1036",
       "title": "Resettable Non-Interactive Zero-Knowledge: Attacks and Defenses",

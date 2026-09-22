@@ -2,10 +2,30 @@
   "schema_version": "1.0",
   "name": "Quang Dao — Authored Papers",
   "description": "Self-hosted PDFs for papers listed on Quang Dao's website.",
-  "updated": "2026-07-25",
+  "updated": "2026-09-21",
   "version_policy": "Use the latest public ePrint or arXiv PDF available on the checked date. Conference proceedings and journal pages remain separate alternate-version links.",
   "homepage": "https://quangvdao.github.io/",
   "papers": [
+    {
+      "id": "2026/2056",
+      "title": "Reed-Solomon Codes Beyond Johnson: Efficient Decoding and Smaller Cryptographic Proofs",
+      "source_url": "https://eprint.iacr.org/2026/2056",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/reed-solomon-codes-beyond-johnson.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-09-21",
+      "pages": 145,
+      "bytes": 1105181,
+      "sha256": "b67c188ec477b6063caf9c1c06b214c71e358ff09b9517adcdb1db212ea2700a"
+    },
+    {
+      "id": "2026/1983",
+      "title": "Akita: A High-Performance Lattice-Based Polynomial Commitment Scheme",
+      "source_url": "https://eprint.iacr.org/2026/1983",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/akita-high-performance-lattice-pcs.pdf",
+      "artifact_basis": "latest ePrint PDF checked 2026-09-21",
+      "pages": 181,
+      "bytes": 1596503,
+      "sha256": "05a483bd047a76e1dcde1335c7541c1d44a4db9ff346fb6b09ab1e967a51c701"
+    },
     {
       "id": "2026/1298",
       "title": "Weak Keys Break the BUFF Security of HAWK",
