@@ -296,6 +296,16 @@ a.pub-title:focus-visible {
   font-size: 0.95rem;
 }
 
+.pub-venue a.venue-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pub-venue a.venue-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .pub-award {
   color: var(--color-award);
   font-weight: 600;
