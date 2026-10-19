@@ -85,15 +85,15 @@
     }
   ],
   "coverage": {
-    "catalog_records": 218,
+    "catalog_records": 221,
     "by_relation": {
-      "authored": 17,
+      "authored": 20,
       "cited": 200,
       "curated": 22
     },
     "by_availability": {
       "metadata-only": 78,
-      "mirrored": 39,
+      "mirrored": 42,
       "source-only": 101
     },
     "citation_sources_processed": 5,
@@ -248,10 +248,10 @@
       },
       "source_url": "https://eprint.iacr.org/2026/1983",
       "mirror_url": "https://quangvdao.github.io/papers/authored/akita-high-performance-lattice-pcs.pdf",
-      "artifact_basis": "latest ePrint PDF checked 2026-09-21",
-      "pages": 181,
-      "bytes": 1596503,
-      "sha256": "05a483bd047a76e1dcde1335c7541c1d44a4db9ff346fb6b09ab1e967a51c701",
+      "artifact_basis": "author build of akita.tex at lattice-jolt a2c6378 (last Akita source change on 2026-10-15, the date of the latest ePrint revision), built 2026-10-19",
+      "pages": 178,
+      "bytes": 1670411,
+      "sha256": "c88e27b11d17399ecfb5d0a458dd7dfed98af68e740a4d5d444c74b793561555",
       "provenance": {
         "collection_manifest": "papers/authored/manifest.json"
       },
@@ -274,10 +274,10 @@
       },
       "source_url": "https://eprint.iacr.org/2026/1036",
       "mirror_url": "https://quangvdao.github.io/papers/authored/resettable-nizk-attacks-defenses.pdf",
-      "artifact_basis": "latest ePrint PDF checked 2026-07-25",
-      "pages": 41,
-      "bytes": 745752,
-      "sha256": "7172eb01223dd01f33b285ced4d6f1579cb48acafcb3ec223029c73bc537215c",
+      "artifact_basis": "author build of resettable-nizk-full.tex at resettable-zk eac05c3 (latest source; ePrint revised 2026-10-08), built 2026-10-19",
+      "pages": 58,
+      "bytes": 740419,
+      "sha256": "9874dd58133377e1e9acf754fbc4925851d366725af3e418b1a873272ad26563",
       "provenance": {
         "collection_manifest": "papers/authored/manifest.json"
       },
@@ -302,7 +302,7 @@
       "availability": "mirrored",
       "license_status": "not-recorded",
       "identifiers": {
-        "eprint": "2025/1117"
+        "eprint": "2026/587"
       },
       "source_url": "https://eprint.iacr.org/2026/587",
       "mirror_url": "https://quangvdao.github.io/papers/authored/speeding-up-sum-check-proving.pdf",
@@ -8684,6 +8684,84 @@
         ]
       },
       "source_url": "https://github.com/Microsoft/Spartan"
+    },
+    {
+      "id": "eprint:2026/2501",
+      "title": "Aerie: Efficient Aggregation of Falcon Signatures",
+      "kind": "paper",
+      "relations": [
+        "authored"
+      ],
+      "collections": [
+        "authored"
+      ],
+      "availability": "mirrored",
+      "license_status": "not-recorded",
+      "identifiers": {
+        "eprint": "2026/2501"
+      },
+      "source_url": "https://eprint.iacr.org/2026/2501",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/aerie-efficient-aggregation-falcon-signatures.pdf",
+      "artifact_basis": "author build of Acentelles/aerie-paper main.tex at b134f97 (the revision uploaded to ePrint on 2026-10-16), built 2026-10-19",
+      "pages": 58,
+      "bytes": 566497,
+      "sha256": "66f4b2168edca2959b13e51b883544139b61c7197c8704141dafad154056e750",
+      "provenance": {
+        "collection_manifest": "papers/authored/manifest.json"
+      },
+      "year": 2026
+    },
+    {
+      "id": "eprint:2026/2424",
+      "title": "Counterexamples to Beyond-Johnson Proximity Gaps over Binary Fields",
+      "kind": "paper",
+      "relations": [
+        "authored"
+      ],
+      "collections": [
+        "authored"
+      ],
+      "availability": "mirrored",
+      "license_status": "not-recorded",
+      "identifiers": {
+        "eprint": "2026/2424"
+      },
+      "source_url": "https://eprint.iacr.org/2026/2424",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/counterexamples-beyond-johnson-proximity-gaps-binary-fields.pdf",
+      "artifact_basis": "release PDF committed to GUJustin/binary_field_gap_counterexamples at 62e795d on 2026-10-08, the day before ePrint receipt",
+      "pages": 67,
+      "bytes": 624105,
+      "sha256": "b8e5649ccb66a1fe329ab57360d2a537f71fb4c252624ea4f3490eae8afb0438",
+      "provenance": {
+        "collection_manifest": "papers/authored/manifest.json"
+      },
+      "year": 2026
+    },
+    {
+      "id": "eprint:2026/2157",
+      "title": "Jolt-QED: Formally Verifying Bytecode Expansions in Lean",
+      "kind": "paper",
+      "relations": [
+        "authored"
+      ],
+      "collections": [
+        "authored"
+      ],
+      "availability": "mirrored",
+      "license_status": "not-recorded",
+      "identifiers": {
+        "eprint": "2026/2157"
+      },
+      "source_url": "https://eprint.iacr.org/2026/2157",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/jolt-qed-formally-verifying-bytecode-expansions.pdf",
+      "artifact_basis": "author build of abiswas3/jolt-qed-paper latex/main.tex at 2bbd2c1 (branch conf, whose abstract matches ePrint), built 2026-10-19",
+      "pages": 31,
+      "bytes": 470366,
+      "sha256": "9b9cfb1939181aa0333fc77e2197ef6b0c679b60faf2f12842f6b83d69ce2347",
+      "provenance": {
+        "collection_manifest": "papers/authored/manifest.json"
+      },
+      "year": 2026
     }
   ]
 }
