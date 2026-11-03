@@ -2,10 +2,20 @@
   "schema_version": "1.0",
   "name": "Quang Dao — Authored Papers",
   "description": "Self-hosted PDFs for papers listed on Quang Dao's website.",
-  "updated": "2026-10-19",
+  "updated": "2026-11-03",
   "version_policy": "Use the latest public ePrint or arXiv PDF available on the checked date. Conference proceedings and journal pages remain separate alternate-version links.",
   "homepage": "https://quangvdao.github.io/",
   "papers": [
+    {
+      "id": "ECCC TR26-147",
+      "title": "Cube-Root Soundness Is Optimal for the Line-versus-Point Test",
+      "source_url": "https://eccc.weizmann.ac.il/report/2026/147/",
+      "mirror_url": "https://quangvdao.github.io/papers/authored/cube-root-soundness-line-versus-point.pdf",
+      "artifact_basis": "ECCC TR26-147 revision 5 PDF (accepted 2026-11-03), downloaded 2026-11-03",
+      "pages": 29,
+      "bytes": 969403,
+      "sha256": "4be93833597fc99db02435825322369d1d649061b63d93208fda0dbdb6236f2b"
+    },
     {
       "id": "2026/2501",
       "title": "Aerie: Efficient Aggregation of Falcon Signatures",
