@@ -31,10 +31,10 @@
       "title": "Counterexamples to Beyond-Johnson Proximity Gaps over Binary Fields",
       "source_url": "https://eprint.iacr.org/2026/2424",
       "mirror_url": "https://quangvdao.github.io/papers/authored/counterexamples-beyond-johnson-proximity-gaps-binary-fields.pdf",
-      "artifact_basis": "release PDF committed to GUJustin/binary_field_gap_counterexamples at 62e795d on 2026-10-08, the day before ePrint receipt",
-      "pages": 67,
-      "bytes": 624105,
-      "sha256": "b8e5649ccb66a1fe329ab57360d2a537f71fb4c252624ea4f3490eae8afb0438"
+      "artifact_basis": "release PDF committed to GUJustin/binary_field_gap_counterexamples at 91f9ceb on 2026-11-02, before the ePrint revision of 2026-11-03 (UTC)",
+      "pages": 68,
+      "bytes": 615595,
+      "sha256": "6c2d9cedf047e9f98d174f41e6742e827f7c6f0e1dd00939b3975e7fe66f4e4d"
     },
     {
       "id": "2026/2157",
@@ -51,10 +51,10 @@
       "title": "Reed-Solomon Codes Beyond Johnson: Efficient Decoding and Smaller Cryptographic Proofs",
       "source_url": "https://eprint.iacr.org/2026/2056",
       "mirror_url": "https://quangvdao.github.io/papers/authored/reed-solomon-codes-beyond-johnson.pdf",
-      "artifact_basis": "latest ePrint PDF checked 2026-09-21",
-      "pages": 145,
-      "bytes": 1105181,
-      "sha256": "b67c188ec477b6063caf9c1c06b214c71e358ff09b9517adcdb1db212ea2700a"
+      "artifact_basis": "author build committed to quangvdao/rs-capacity-and-correlated-agreement at 081ae6b on 2026-11-02, before the ePrint revision of 2026-11-03 (UTC)",
+      "pages": 107,
+      "bytes": 973395,
+      "sha256": "82ad549131bab3d0d2b162da8baf8396e9078173ddb5564acde154dc73b0d59d"
     },
     {
       "id": "2026/1983",
